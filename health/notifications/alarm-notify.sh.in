@@ -391,6 +391,7 @@ STACKPULSE_WEBHOOK=
 
 # opsgenie configs
 OPSGENIE_API_KEY=
+OPSGENIE_API_URL=${OPSGENIE_API_URL:-"https://api.opsgenie.com"}
 
 # load the stock and user configuration files
 # these will overwrite the variables above
